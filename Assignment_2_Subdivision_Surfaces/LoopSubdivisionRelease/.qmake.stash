@@ -1,0 +1,23 @@
+QMAKE_LICHECK_TIMESTAMP = "Sun Dec 3"
+QMAKE_CXX.QT_COMPILER_STDCXX = 201703L
+QMAKE_CXX.QMAKE_GCC_MAJOR_VERSION = 13
+QMAKE_CXX.QMAKE_GCC_MINOR_VERSION = 1
+QMAKE_CXX.QMAKE_GCC_PATCH_VERSION = 0
+QMAKE_CXX.COMPILER_MACROS = \
+    QT_COMPILER_STDCXX \
+    QMAKE_GCC_MAJOR_VERSION \
+    QMAKE_GCC_MINOR_VERSION \
+    QMAKE_GCC_PATCH_VERSION
+QMAKE_CXX.INCDIRS = \
+    "P:/Program Files/MSYS2/ucrt64/include/c++/13.1.0" \
+    "P:/Program Files/MSYS2/ucrt64/include/c++/13.1.0/x86_64-w64-mingw32" \
+    "P:/Program Files/MSYS2/ucrt64/include/c++/13.1.0/backward" \
+    "P:/Program Files/MSYS2/ucrt64/lib/gcc/x86_64-w64-mingw32/13.1.0/include" \
+    "P:/Program Files/MSYS2/ucrt64/include" \
+    "P:/Program Files/MSYS2/ucrt64/lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"
+QMAKE_CXX.LIBDIRS = \
+    "P:/Program Files/MSYS2/ucrt64/lib/gcc/x86_64-w64-mingw32/13.1.0" \
+    "P:/Program Files/MSYS2/ucrt64/lib/gcc" \
+    "P:/Program Files/MSYS2/ucrt64/x86_64-w64-mingw32/lib" \
+    "P:/Program Files/MSYS2/ucrt64/lib"
+QMAKE_LICHECK_TIMESTAMP = "Thu Dec 7"

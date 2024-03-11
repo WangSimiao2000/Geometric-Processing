@@ -1,0 +1,100 @@
+#
+# Leeds COMP 5821M Autumn 2023
+# Wang Simiao
+# 201702881
+# Surface vertices=10 faces=16
+#
+Vertex 0 -0.25 -0.25 -0.25
+Vertex 1 0.25 -0.25 0.25
+Vertex 2 -0.25 0.25 0.25
+Vertex 3 0.25 0.25 -0.25
+Vertex 4 -0.5 0 0
+Vertex 5 0 -0.5 0
+Vertex 6 0 0 0.5
+Vertex 7 0 0 -0.5
+Vertex 8 0 0.5 0
+Vertex 9 0.5 0 0
+Normal 0 -0.25 -0.25 -0.25
+Normal 1 0.25 -0.25 0.25
+Normal 2 -0.25 0.25 0.25
+Normal 3 0.25 0.25 -0.25
+Normal 4 -0.5 0 0
+Normal 5 0 -0.5 0
+Normal 6 0 0 0.5
+Normal 7 0 0 -0.5
+Normal 8 0 0.5 0
+Normal 9 0.5 0 0
+FirstDirectedEdge 0 13
+FirstDirectedEdge 1 16
+FirstDirectedEdge 2 19
+FirstDirectedEdge 3 28
+FirstDirectedEdge 4 2
+FirstDirectedEdge 5 0
+FirstDirectedEdge 6 1
+FirstDirectedEdge 7 5
+FirstDirectedEdge 8 4
+FirstDirectedEdge 9 7
+Face 0 6 4 5
+Face 1 8 7 4
+Face 2 9 5 7
+Face 3 6 9 8
+Face 4 0 5 4
+Face 5 1 6 5
+Face 6 2 4 6
+Face 7 0 4 7
+Face 8 2 8 4
+Face 9 3 7 8
+Face 10 0 7 5
+Face 11 3 9 7
+Face 12 1 5 9
+Face 13 3 8 9
+Face 14 2 6 8
+Face 15 1 9 6
+OtherHalf 0 17
+OtherHalf 1 20
+OtherHalf 2 14
+OtherHalf 3 26
+OtherHalf 4 29
+OtherHalf 5 23
+OtherHalf 6 35
+OtherHalf 7 38
+OtherHalf 8 32
+OtherHalf 9 44
+OtherHalf 10 47
+OtherHalf 11 41
+OtherHalf 12 22
+OtherHalf 13 30
+OtherHalf 14 2
+OtherHalf 15 37
+OtherHalf 16 45
+OtherHalf 17 0
+OtherHalf 18 43
+OtherHalf 19 24
+OtherHalf 20 1
+OtherHalf 21 31
+OtherHalf 22 12
+OtherHalf 23 5
+OtherHalf 24 19
+OtherHalf 25 42
+OtherHalf 26 3
+OtherHalf 27 40
+OtherHalf 28 33
+OtherHalf 29 4
+OtherHalf 30 13
+OtherHalf 31 21
+OtherHalf 32 8
+OtherHalf 33 28
+OtherHalf 34 39
+OtherHalf 35 6
+OtherHalf 36 46
+OtherHalf 37 15
+OtherHalf 38 7
+OtherHalf 39 34
+OtherHalf 40 27
+OtherHalf 41 11
+OtherHalf 42 25
+OtherHalf 43 18
+OtherHalf 44 9
+OtherHalf 45 16
+OtherHalf 46 36
+OtherHalf 47 10

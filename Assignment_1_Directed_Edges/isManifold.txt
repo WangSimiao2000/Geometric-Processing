@@ -1,0 +1,29 @@
+# University of leeds 2023-2024
+# COMP 5812M Assignment 1
+# Simiao Wang
+# 201702881
+#
+Object 2ballout is Manifold, the  genus is -1, there are discontinuous models within this file.
+Object 2torus is Manifold, the  genus is 1.
+Object 5bout is Manifold, the  genus is 1.
+Object 747 is not Manifold
+Object biplane is not Manifold
+Object bitorus is Manifold, the  genus is 2.
+Object cherrytree is Manifold, the  genus is -4849, there are discontinuous models within this file.
+Object cow is not Manifold
+Object cube is Manifold, the  genus is 0.
+Object dodecahedron is Manifold, the  genus is 0.
+Object fuelinject is Manifold, the  genus is -84, there are discontinuous models within this file.
+Object hexahedron is Manifold, the  genus is 0.
+Object horse is Manifold, the  genus is 0.
+Object icosahedron is Manifold, the  genus is 0.
+Object legoman is not Manifold
+Object many is Manifold, the  genus is -8, there are discontinuous models within this file.
+Object octahedron is Manifold, the  genus is 0.
+Object quadtorus is Manifold, the  genus is 4.
+Object skeleton is not Manifold
+Object tetrahedron is Manifold, the  genus is 0.
+Object tetrahedron_bad is not Manifold
+Object torus is Manifold, the  genus is 1.
+Object tritorus is Manifold, the  genus is 3.
+Object yoda is Manifold, the  genus is -99, there are discontinuous models within this file.
