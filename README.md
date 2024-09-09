@@ -68,7 +68,7 @@ zh:
 
 ## A3. Texture_Mapping 纹理映射工具
 
-<img width="373" alt="8ceae31605a19d1563393ebb36ad14b" src="https://github.com/user-attachments/assets/dfce5326-0b14-44cb-93f9-8e850c9170c8">
+![image](https://github.com/user-attachments/assets/d52480f8-b69c-4d37-b0e3-6c1feb3cb0d0)
 
 <img width="373" alt="72b5c1c8cf918592542fbfab81d6d84" src="https://github.com/user-attachments/assets/55634b16-e124-4585-81a8-e4ab562fe8d3">
 
