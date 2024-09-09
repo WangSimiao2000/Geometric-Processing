@@ -34,6 +34,12 @@ zh:
 
 ## A2. Subdivision_Surfaces 曲面细分工具
 
+<img width="392" alt="8ceae31605a19d1563393ebb36ad14b" src="https://github.com/user-attachments/assets/16543450-ba87-4bbe-ac49-7e7899ef096c">
+
+<img width="392" alt="c7b45c0813f089c5ee84914448d5823" src="https://github.com/user-attachments/assets/a00482f0-d938-4cba-a59f-efa2fb78d373">
+
+<img width="392" alt="7d056d754a149a6939313b7b5ae51aa" src="https://github.com/user-attachments/assets/2e5f31e8-83a2-4b01-a5d8-801b26bd38f9">
+
 ### Notes 注意事项
 
 en:
@@ -61,6 +67,12 @@ zh:
 5. 程序将生成一个新的 `.diredgenormal` 文件，其中包含细分后的表面几何体。
 
 ## A3. Texture_Mapping 纹理映射工具
+
+<img width="373" alt="8ceae31605a19d1563393ebb36ad14b" src="https://github.com/user-attachments/assets/dfce5326-0b14-44cb-93f9-8e850c9170c8">
+
+<img width="373" alt="72b5c1c8cf918592542fbfab81d6d84" src="https://github.com/user-attachments/assets/55634b16-e124-4585-81a8-e4ab562fe8d3">
+
+<img width="373" alt="6a538436bd5b0ab08950b31445bbc9c" src="https://github.com/user-attachments/assets/9aa398f7-0954-4c8d-97d0-e61cd16d58a8">
 
 en:
 
