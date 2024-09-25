@@ -2,6 +2,12 @@
 
 ## A1. Directed_Edges 有向边处理工具
 
+### Functionality 功能
+
+1. 将 .tri 文件转换为 .face 文件
+2. 将 .face 文件转换为 .tri 文件
+3. 检查模型是否为流形并计算属数
+
 ### Notes 注意事项
 
 en:
@@ -33,6 +39,20 @@ zh:
 5. 如果需要重新编译并运行，首先执行 `make clean` 命令清理文件目录，然后再次从第一步开始。
 
 ## A2. Subdivision_Surfaces 曲面细分工具
+
+### Functionality 功能
+
+曲面loop细分:
+1. 连接每条边的中点，得到新的顶点
+2. 将所有顶点分为两类: 新顶点和旧顶点
+3. 新顶点的坐标更新为: (A+B)*3/8 + (C+D)*1/8
+   - 新顶点所在边的两个旧顶点的坐标: A, B
+   - 新顶点相邻两个三角形的不共边的两个旧顶点的坐标: C, D
+4. 旧顶点的坐标更新为: (1-n*u) * 旧顶点坐标 + u * 相邻旧顶点坐标之和
+   - n = 旧顶点相邻的新顶点数
+   - u = 3/16 if n = 3, u = 3/8n otherwise
+
+### Screenshots 截图
 
 <img width="392" alt="8ceae31605a19d1563393ebb36ad14b" src="https://github.com/user-attachments/assets/16543450-ba87-4bbe-ac49-7e7899ef096c">
 
@@ -67,6 +87,16 @@ zh:
 5. 程序将生成一个新的 `.diredgenormal` 文件，其中包含细分后的表面几何体。
 
 ## A3. Texture_Mapping 纹理映射工具
+
+### Functionality 功能
+
+1. 建立半边数据结构和邻接点信息
+2. 识别边界: 找到没有配对的半边，从该边开始，沿着边界边的两个顶点遍历，直到回到起始边界
+3. 创建正方形纹理: 根据边界点生成纹理坐标，处理非边界点的默认坐标
+4. 使用Floater算法为网格中的每个顶点分配纹理坐标: 迭代更新每个非边界点的纹理坐标为其邻接点的平均值
+5. 计算法线: 根据三角形的法线计算每个顶点的法线，并进行归一化处理
+
+### Screenshots 截图
 
 <img width="373" src="https://github.com/user-attachments/assets/d52480f8-b69c-4d37-b0e3-6c1feb3cb0d0">
 
